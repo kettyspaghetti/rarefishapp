@@ -1,0 +1,559 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		001234567890ABCD /* AquaVaultApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001234567890ABCE /* AquaVaultApp.swift */; };
+		001234567890ABCF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001234567890ABD0 /* ContentView.swift */; };
+		001234567890ABD1 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001234567890ABD2 /* AppState.swift */; };
+		001234567890ABD3 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001234567890ABD4 /* MainTabView.swift */; };
+		001234567890ABD5 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001234567890ABD6 /* SplashView.swift */; };
+		001234567890ABD7 /* AuthenticationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001234567890ABD8 /* AuthenticationView.swift */; };
+		001234567890ABD9 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001234567890ABDA /* DashboardView.swift */; };
+		001234567890ABDB /* DiscoveryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001234567890ABDC /* DiscoveryView.swift */; };
+		001234567890ABDD /* FishDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001234567890ABDE /* FishDetailView.swift */; };
+		001234567890ABDF /* TradingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001234567890ABE0 /* TradingView.swift */; };
+		001234567890ABE1 /* PortfolioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001234567890ABE2 /* PortfolioView.swift */; };
+		001234567890ABE3 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001234567890ABE4 /* ProfileView.swift */; };
+		001234567890ABE5 /* AquaColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001234567890ABE6 /* AquaColors.swift */; };
+		001234567890ABE7 /* AquaFonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001234567890ABE8 /* AquaFonts.swift */; };
+		001234567890ABE9 /* GlassmorphicCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001234567890ABEA /* GlassmorphicCard.swift */; };
+		001234567890ABEB /* AnimationEffects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001234567890ABEC /* AnimationEffects.swift */; };
+		001234567890ABED /* StatusBadges.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001234567890ABEE /* StatusBadges.swift */; };
+		001234567890ABEF /* Fish.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001234567890ABF0 /* Fish.swift */; };
+		001234567890ABF1 /* MockDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001234567890ABF2 /* MockDataManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		001234567890ABCB /* AquaVault.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AquaVault.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		001234567890ABCE /* AquaVaultApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AquaVaultApp.swift; sourceTree = "<group>"; };
+		001234567890ABD0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		001234567890ABD2 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		001234567890ABD4 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		001234567890ABD6 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		001234567890ABD8 /* AuthenticationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationView.swift; sourceTree = "<group>"; };
+		001234567890ABDA /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		001234567890ABDC /* DiscoveryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoveryView.swift; sourceTree = "<group>"; };
+		001234567890ABDE /* FishDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FishDetailView.swift; sourceTree = "<group>"; };
+		001234567890ABE0 /* TradingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradingView.swift; sourceTree = "<group>"; };
+		001234567890ABE2 /* PortfolioView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortfolioView.swift; sourceTree = "<group>"; };
+		001234567890ABE4 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		001234567890ABE6 /* AquaColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AquaColors.swift; sourceTree = "<group>"; };
+		001234567890ABE8 /* AquaFonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AquaFonts.swift; sourceTree = "<group>"; };
+		001234567890ABEA /* GlassmorphicCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlassmorphicCard.swift; sourceTree = "<group>"; };
+		001234567890ABEC /* AnimationEffects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationEffects.swift; sourceTree = "<group>"; };
+		001234567890ABEE /* StatusBadges.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusBadges.swift; sourceTree = "<group>"; };
+		001234567890ABF0 /* Fish.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fish.swift; sourceTree = "<group>"; };
+		001234567890ABF2 /* MockDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockDataManager.swift; sourceTree = "<group>"; };
+		001234567890ABF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		001234567890ABC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		001234567890ABC2 = {
+			isa = PBXGroup;
+			children = (
+				001234567890ABCD /* AquaVault */,
+				001234567890ABCC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		001234567890ABCC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				001234567890ABCB /* AquaVault.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		001234567890ABCD /* AquaVault */ = {
+			isa = PBXGroup;
+			children = (
+				001234567890ABF3 /* Info.plist */,
+				001234567890ABC3 /* App */,
+				001234567890ABC4 /* Core */,
+				001234567890ABC5 /* Features */,
+				001234567890ABC6 /* DesignSystem */,
+				001234567890ABC7 /* Resources */,
+			);
+			path = AquaVault;
+			sourceTree = "<group>";
+		};
+		001234567890ABC3 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				001234567890ABCE /* AquaVaultApp.swift */,
+				001234567890ABD0 /* ContentView.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		001234567890ABC4 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				001234567890ABCD1 /* Navigation */,
+				001234567890ABCD2 /* DataModels */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		001234567890ABCD1 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				001234567890ABD4 /* MainTabView.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		001234567890ABCD2 /* DataModels */ = {
+			isa = PBXGroup;
+			children = (
+				001234567890ABD2 /* AppState.swift */,
+				001234567890ABF0 /* Fish.swift */,
+			);
+			path = DataModels;
+			sourceTree = "<group>";
+		};
+		001234567890ABC5 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				001234567890ABCD3 /* Authentication */,
+				001234567890ABCD4 /* Dashboard */,
+				001234567890ABCD5 /* Discovery */,
+				001234567890ABCD6 /* Trading */,
+				001234567890ABCD7 /* Portfolio */,
+				001234567890ABCD8 /* Profile */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		001234567890ABCD3 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				001234567890ABD6 /* SplashView.swift */,
+				001234567890ABD8 /* AuthenticationView.swift */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		001234567890ABCD4 /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				001234567890ABDA /* DashboardView.swift */,
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
+		001234567890ABCD5 /* Discovery */ = {
+			isa = PBXGroup;
+			children = (
+				001234567890ABDC /* DiscoveryView.swift */,
+				001234567890ABDE /* FishDetailView.swift */,
+			);
+			path = Discovery;
+			sourceTree = "<group>";
+		};
+		001234567890ABCD6 /* Trading */ = {
+			isa = PBXGroup;
+			children = (
+				001234567890ABE0 /* TradingView.swift */,
+			);
+			path = Trading;
+			sourceTree = "<group>";
+		};
+		001234567890ABCD7 /* Portfolio */ = {
+			isa = PBXGroup;
+			children = (
+				001234567890ABE2 /* PortfolioView.swift */,
+			);
+			path = Portfolio;
+			sourceTree = "<group>";
+		};
+		001234567890ABCD8 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				001234567890ABE4 /* ProfileView.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		001234567890ABC6 /* DesignSystem */ = {
+			isa = PBXGroup;
+			children = (
+				001234567890ABCD9 /* Colors */,
+				001234567890ABCDA /* Typography */,
+				001234567890ABCDB /* Components */,
+				001234567890ABCDC /* Animations */,
+			);
+			path = DesignSystem;
+			sourceTree = "<group>";
+		};
+		001234567890ABCD9 /* Colors */ = {
+			isa = PBXGroup;
+			children = (
+				001234567890ABE6 /* AquaColors.swift */,
+			);
+			path = Colors;
+			sourceTree = "<group>";
+		};
+		001234567890ABCDA /* Typography */ = {
+			isa = PBXGroup;
+			children = (
+				001234567890ABE8 /* AquaFonts.swift */,
+			);
+			path = Typography;
+			sourceTree = "<group>";
+		};
+		001234567890ABCDB /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				001234567890ABEA /* GlassmorphicCard.swift */,
+				001234567890ABEE /* StatusBadges.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		001234567890ABCDC /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				001234567890ABEC /* AnimationEffects.swift */,
+			);
+			path = Animations;
+			sourceTree = "<group>";
+		};
+		001234567890ABC7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				001234567890ABCDD /* MockData */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		001234567890ABCDD /* MockData */ = {
+			isa = PBXGroup;
+			children = (
+				001234567890ABF2 /* MockDataManager.swift */,
+			);
+			path = MockData;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		001234567890ABCA /* AquaVault */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 001234567890ABF9 /* Build configuration list for PBXNativeTarget "AquaVault" */;
+			buildPhases = (
+				001234567890ABC7 /* Sources */,
+				001234567890ABC8 /* Frameworks */,
+				001234567890ABC9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AquaVault;
+			productName = AquaVault;
+			productReference = 001234567890ABCB /* AquaVault.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		001234567890ABC3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					001234567890ABCA = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = 001234567890ABC6 /* Build configuration list for PBXProject "AquaVault" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 001234567890ABC2;
+			productRefGroup = 001234567890ABCC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				001234567890ABCA /* AquaVault */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		001234567890ABC9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		001234567890ABC7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				001234567890ABCF /* ContentView.swift in Sources */,
+				001234567890ABCD /* AquaVaultApp.swift in Sources */,
+				001234567890ABD1 /* AppState.swift in Sources */,
+				001234567890ABD3 /* MainTabView.swift in Sources */,
+				001234567890ABD5 /* SplashView.swift in Sources */,
+				001234567890ABD7 /* AuthenticationView.swift in Sources */,
+				001234567890ABD9 /* DashboardView.swift in Sources */,
+				001234567890ABDB /* DiscoveryView.swift in Sources */,
+				001234567890ABDD /* FishDetailView.swift in Sources */,
+				001234567890ABDF /* TradingView.swift in Sources */,
+				001234567890ABE1 /* PortfolioView.swift in Sources */,
+				001234567890ABE3 /* ProfileView.swift in Sources */,
+				001234567890ABE5 /* AquaColors.swift in Sources */,
+				001234567890ABE7 /* AquaFonts.swift in Sources */,
+				001234567890ABE9 /* GlassmorphicCard.swift in Sources */,
+				001234567890ABEB /* AnimationEffects.swift in Sources */,
+				001234567890ABED /* StatusBadges.swift in Sources */,
+				001234567890ABEF /* Fish.swift in Sources */,
+				001234567890ABF1 /* MockDataManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		001234567890ABF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		001234567890ABF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		001234567890ABFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AquaVault/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = AquaVault;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aquavault.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		001234567890ABFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AquaVault/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = AquaVault;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aquavault.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		001234567890ABC6 /* Build configuration list for PBXProject "AquaVault" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				001234567890ABF7 /* Debug */,
+				001234567890ABF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		001234567890ABF9 /* Build configuration list for PBXNativeTarget "AquaVault" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				001234567890ABFA /* Debug */,
+				001234567890ABFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 001234567890ABC3 /* Project object */;
+}
