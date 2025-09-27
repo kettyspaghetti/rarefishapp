@@ -42,7 +42,7 @@ struct AuthenticationView: View {
                 VStack(spacing: 24) {
                     // Header
                     VStack(spacing: 8) {
-                        Text("Welcome to AquaVault")
+                        Text("Welcome to FishDad")
                             .font(.title)
                             .fontWeight(.bold)
                             .foregroundColor(.white)
@@ -96,7 +96,7 @@ struct AuthenticationView: View {
                     .foregroundColor(Color(hex: "00D4FF"))
 
                     // Social Proof
-                    Text("Join 10,000+ Elite Collectors")
+                    Text("Join 10,000+ Fish Enthusiasts")
                         .font(.caption)
                         .foregroundColor(.white.opacity(0.5))
                 }

@@ -52,7 +52,7 @@ struct ProfileView: View {
 
                             VStack(spacing: 8) {
                                 HStack(spacing: 8) {
-                                    Text("Elite Collector")
+                                    Text("Fish Dad Expert")
                                         .font(.title)
                                         .fontWeight(.bold)
                                         .foregroundColor(.white)
@@ -61,7 +61,7 @@ struct ProfileView: View {
                                         .foregroundColor(Color(hex: "00D4FF"))
                                 }
 
-                                Text("@aqua_master_2024")
+                                Text("@fish_dad_2024")
                                     .font(.body)
                                     .foregroundColor(.white.opacity(0.7))
 
@@ -71,7 +71,7 @@ struct ProfileView: View {
                                         .fill(Color.green)
                                         .frame(width: 8, height: 8)
 
-                                    Text("Legendary Curator")
+                                    Text("Master Fish Dad")
                                         .font(.caption)
                                         .foregroundColor(Color(hex: "E8B4B8"))
                                 }
@@ -94,7 +94,7 @@ struct ProfileView: View {
                     // Stats Overview
                     VStack(spacing: 20) {
                         HStack {
-                            Text("Collector Statistics")
+                            Text("Fish Dad Statistics")
                                 .font(.title2)
                                 .fontWeight(.bold)
                                 .foregroundColor(.white)
@@ -106,10 +106,10 @@ struct ProfileView: View {
                         }
 
                         VStack(spacing: 16) {
-                            StatRow(title: "Total Trades", value: "247", trend: "+12 this month")
-                            StatRow(title: "Success Rate", value: "94.2%", trend: "+2.1% vs last month")
-                            StatRow(title: "Avg. Hold Time", value: "45 days", trend: "Optimal range")
-                            StatRow(title: "Portfolio ROI", value: "+287%", trend: "All time")
+                            StatRow(title: "Fish Raised", value: "247", trend: "+12 this month")
+                            StatRow(title: "Breeding Success", value: "94.2%", trend: "+2.1% vs last month")
+                            StatRow(title: "Tank Health Score", value: "98/100", trend: "Excellent")
+                            StatRow(title: "Dad Experience", value: "4.5 years", trend: "Expert level")
                         }
                     }
                     .padding()

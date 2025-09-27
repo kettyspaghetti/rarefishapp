@@ -30,7 +30,7 @@ struct PortfolioView: View {
                                 .fontWeight(.heavy)
                                 .foregroundColor(.white)
 
-                            Text("Your Rare Specimens")
+                            Text("Your Fish Family")
                                 .font(.body)
                                 .foregroundColor(.white.opacity(0.7))
                         }
@@ -51,7 +51,7 @@ struct PortfolioView: View {
                     VStack(spacing: 16) {
                         HStack {
                             VStack(alignment: .leading, spacing: 4) {
-                                Text("Total Value")
+                                Text("Fish Family Value")
                                     .font(.caption)
                                     .foregroundColor(.white.opacity(0.7))
 
@@ -94,8 +94,8 @@ struct PortfolioView: View {
 
                         // Quick Stats
                         HStack(spacing: 20) {
-                            PortfolioStat(title: "Species", value: "23", subtitle: "23/100 Goal")
-                            PortfolioStat(title: "Rarity Score", value: "9,450", subtitle: "Top 5%")
+                            PortfolioStat(title: "Fish Types", value: "23", subtitle: "23/100 Goal")
+                            PortfolioStat(title: "Dad Level", value: "Expert", subtitle: "Top 5%")
                             PortfolioStat(title: "Badges", value: "12", subtitle: "Achievements")
                         }
                     }

@@ -41,7 +41,7 @@ struct SplashView: View {
 
                 // App Title
                 VStack(spacing: 8) {
-                    Text("AquaVault")
+                    Text("FishDad")
                         .font(.system(size: 64, weight: .heavy, design: .default))
                         .fontWeight(.heavy)
                         .foregroundStyle(LinearGradient(
@@ -52,7 +52,7 @@ struct SplashView: View {
                         .scaleEffect(animateTitle ? 1.0 : 0.9)
                         .opacity(animateTitle ? 1.0 : 0.0)
 
-                    Text("Where Rarity Meets Luxury")
+                    Text("Your Fish, Your Legacy")
                         .font(.title2)
                         .foregroundColor(.white.opacity(0.8))
                         .opacity(animateTitle ? 1.0 : 0.0)

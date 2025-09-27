@@ -16,7 +16,7 @@ struct DashboardView: View {
                                     .font(.title2)
                                     .foregroundColor(.white.opacity(0.8))
 
-                                Text("Elite Collector")
+                                Text("Fish Dad")
                                     .font(.largeTitle)
                                     .fontWeight(.bold)
                                     .foregroundColor(.white)
@@ -77,10 +77,10 @@ struct DashboardView: View {
 
                     // Quick Stats
                     LazyVGrid(columns: Array(repeating: GridItem(.flexible(), spacing: 12), count: 2), spacing: 12) {
-                        StatCard(title: "Portfolio Value", value: "$127,450", change: "+$3,200")
+                        StatCard(title: "Tank Value", value: "$127,450", change: "+$3,200")
                         StatCard(title: "Fish Count", value: "23", change: "+2 this week")
-                        StatCard(title: "Rarity Score", value: "9,450", change: "Top 5%")
-                        StatCard(title: "Active Trades", value: "12", change: "2 pending")
+                        StatCard(title: "Dad Level", value: "Expert", change: "Top 5%")
+                        StatCard(title: "Active Care", value: "12", change: "2 breeding")
                     }
                     .padding(.horizontal)
 

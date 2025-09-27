@@ -17,7 +17,7 @@ struct TradingView: View {
                                     .fontWeight(.heavy)
                                     .foregroundColor(.white)
 
-                                Text("Premium Fish Exchange")
+                                Text("Fish Dad Marketplace")
                                     .font(.body)
                                     .foregroundColor(.white.opacity(0.7))
                             }
@@ -55,7 +55,7 @@ struct TradingView: View {
 
                             HStack(spacing: 20) {
                                 MarketStat(title: "Total Volume", value: "$2.4M", change: "+12.5%")
-                                MarketStat(title: "Active Traders", value: "1,247", change: "+8.2%")
+                                MarketStat(title: "Active Dads", value: "1,247", change: "+8.2%")
                                 MarketStat(title: "Avg. Price", value: "$18.5K", change: "-2.1%")
                             }
                         }

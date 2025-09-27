@@ -29,7 +29,7 @@ struct DiscoveryView: View {
                                 .fontWeight(.heavy)
                                 .foregroundColor(.white)
 
-                            Text("Rare Aquatic Specimens")
+                            Text("Fish for Every Dad")
                                 .font(.body)
                                 .foregroundColor(.white.opacity(0.7))
                         }
@@ -51,7 +51,7 @@ struct DiscoveryView: View {
                         Image(systemName: "magnifyingglass")
                             .foregroundColor(.white.opacity(0.6))
 
-                        TextField("Search specimens...", text: $searchText)
+                        TextField("Search fish...", text: $searchText)
                             .foregroundColor(.white)
 
                         if !searchText.isEmpty {
